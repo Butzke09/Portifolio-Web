@@ -1,0 +1,106 @@
+﻿@page "/Minha Trajetoria"
+
+<section class="secao-trajetoria">
+    <div class="container-trajetoria">
+
+        <span class="/Meu Curriculo">MINHA HISTÓRIA</span>
+
+        <h1 class="titulo-trajetoria">
+            Minha trajetória
+        </h1>
+
+        <p class="texto-trajetoria">
+            Comecei minha jornada com interesse em tecnologia e curiosidade por entender
+            como as coisas funcionam. Ao longo dos estudos, fui desenvolvendo habilidades
+            em informática, aprendendo não só a usar ferramentas, mas também a resolver
+            problemas de forma prática.
+        </p>
+
+        <p class="texto-trajetoria">
+            Durante minha formação, tive contato com áreas como desenvolvimento, banco
+            de dados e sistemas, o que ampliou minha visão sobre o mercado de tecnologia.
+            Com isso, passei a focar em aprender continuamente e buscar soluções eficientes.
+        </p>
+
+        <p class="texto-trajetoria">
+            Hoje, sigo em evolução, buscando crescer profissionalmente, fortalecer minhas
+            habilidades e me preparar para oportunidades na área de tecnologia.
+        </p>
+
+    </div>
+</section>
+
+<style>
+
+    .secao-trajetoria {
+        padding: 4rem 1.5rem;
+        background: #f1f5f9;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-trajetoria {
+        width: 100%;
+        max-width: 900px;
+        background: #ffffff;
+        border-radius: 22px;
+        padding: 3rem;
+        border: 1px solid #e2e8f0;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    .tag-trajetoria {
+        display: inline-block;
+        background: #ffe5ec;
+        color: #ff006e;
+        font-size: 0.8rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        padding: 0.5rem 0.9rem;
+        border-radius: 999px;
+        margin-bottom: 1.5rem;
+    }
+
+    .titulo-trajetoria {
+        font-family: "Georgia", "Times New Roman", serif;
+        font-size: clamp(2.2rem, 4vw, 3.2rem);
+        color: #8338ec;
+        margin-bottom: 1.5rem;
+        line-height: 1.1;
+    }
+
+    .texto-trajetoria {
+        color: #334155;
+        font-size: 1.08rem;
+        line-height: 1.9;
+        margin-bottom: 1.5rem;
+    }
+
+        .texto-trajetoria:last-child {
+            margin-bottom: 0;
+        }
+
+    @@media (max-width: 768px) {
+
+        .secao-trajetoria {
+            padding: 2rem 1rem;
+        }
+
+        .container-trajetoria {
+            padding: 2rem;
+            border-radius: 18px;
+        }
+
+        .titulo-trajetoria {
+            font-size: 2.2rem;
+        }
+
+        .texto-trajetoria {
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+    }
+
+</style>
